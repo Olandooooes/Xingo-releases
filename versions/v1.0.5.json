@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "product": "行歌年轮 / 我的回想录",
+  "platform": "WeChat Mini Program",
+  "version": "1.0.5",
+  "tag": "v1.0.5",
+  "archiveDate": "2026-07-28",
+  "wechatReviewVersion": null,
+  "wechatReviewDate": null,
+  "wechatOnlineDate": null,
+  "sourceRepositoryVisibility": "private",
+  "sourceCommit": "f6a4fa2bb4ce447e5b419aeac25d6fe6d5694845",
+  "website": "https://xingo.fun",
+  "entry": {
+    "method": "WeChat search",
+    "miniProgramName": "我的回想录",
+    "officialMiniProgramCode": null
+  },
+  "evidence": [
+    "Git commit message: Prepare WeChat experience version 1.0.5",
+    "Cloudflare Pages production deployment source observed as f6a4fa2"
+  ],
+  "note": "This is a traceable source archive. It does not claim an unverified WeChat backend version or date."
+}

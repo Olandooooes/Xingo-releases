@@ -1,0 +1,50 @@
+name: 功能问题
+description: 报告可复现的小程序或官网问题
+title: "[问题] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        公开 Issue 所有人可见。请勿提交原始记录、手机号、openid、验证码、密钥或其他敏感信息。
+  - type: dropdown
+    id: area
+    attributes:
+      label: 问题位置
+      options:
+        - 微信小程序
+        - xingo.fun 官网
+        - 隐私政策或用户协议
+        - 公开版本说明
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 请使用脱敏后的最少信息说明从哪里进入、做了什么、出现了什么。
+      placeholder: |
+        1. 打开……
+        2. 点击……
+        3. 看到……
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望结果
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 环境
+      description: 例如 iOS/Android、微信版本、网络类型；不要填写账号标识。
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 隐私确认
+      options:
+        - label: 我已移除截图和描述中的个人记录、联系方式、账号标识与密钥。
+          required: true

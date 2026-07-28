@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 隐私政策
+    url: https://xingo.fun/privacy
+    about: 了解数据处理方式与个人权利
+  - name: 用户协议
+    url: https://xingo.fun/terms
+    about: 了解服务范围与使用规则

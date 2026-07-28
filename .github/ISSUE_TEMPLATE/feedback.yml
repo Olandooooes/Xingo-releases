@@ -1,0 +1,30 @@
+name: 建议与反馈
+description: 提交不含敏感信息的产品建议
+title: "[建议] "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        谢谢你的建议。请描述使用场景，不要粘贴真实日记、人物资料或账号信息。
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 使用场景
+      description: 你想完成什么？当前哪里不顺？
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 你的建议
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 隐私确认
+      options:
+        - label: 本反馈不包含个人记录、联系方式、账号标识、验证码或密钥。
+          required: true
