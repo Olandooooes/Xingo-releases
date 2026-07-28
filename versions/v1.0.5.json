@@ -18,7 +18,7 @@
   },
   "evidence": [
     "Git commit message: Prepare WeChat experience version 1.0.5",
-    "Cloudflare Pages production deployment source observed as f6a4fa2"
+    "Cloudflare Pages production source observed during the 2026-07-28 audit before the website replacement: f6a4fa2"
   ],
   "note": "This is a traceable source archive. It does not claim an unverified WeChat backend version or date."
 }
