@@ -2,10 +2,11 @@
 
 这里是微信小程序「我的回想录」的公开版本归档与问题反馈仓库。
 
-- 官网：<https://xingo.fun>
+- 行歌年轮官网：<https://yearrings.xingo.fun>
+- Xingo AI 工坊：<https://xingo.fun>
 - 微信进入方式：打开微信，搜索小程序 `我的回想录`
-- 隐私政策：<https://xingo.fun/privacy>
-- 用户协议：<https://xingo.fun/terms>
+- 隐私政策：<https://yearrings.xingo.fun/privacy>
+- 用户协议：<https://yearrings.xingo.fun/terms>
 - 问题与建议：[提交 Issue](https://github.com/Olandooooes/Xingo-releases/issues/new/choose)
 
 ## 当前归档
@@ -13,6 +14,8 @@
 `v1.0.5` 是根据私有源码提交与现有部署记录建立的首个可追溯源码归档。它不等同于未经核验的微信公众平台后台版本号；审核版本号、审核日期与上线日期在没有可靠来源时保持未知。
 
 [查看 v1.0.5 Release](https://github.com/Olandooooes/Xingo-releases/releases/tag/v1.0.5)
+
+2026-07-29 起，行歌年轮的独立产品官网迁移至 `yearrings.xingo.fun`，`xingo.fun` 作为 Xingo AI 工坊与个人作品门户。已发布 Release 与追溯资产保持不可覆盖；其中保存的旧 apex 链接仍作为当时归档依据保留。
 
 ## 关于下载
 
