@@ -4,6 +4,16 @@
 
 [GitHub](https://github.com/Olandooooes) · [产品门户](https://xingo.fun)
 
+## 独立工程案例
+
+从业务问题、本人职责、技术取舍、关键实现、验证和交付边界展开：
+
+- [OfferPath：Web 工作流、附件与 AI 简历迭代](cases/offerpath.md)
+- [BitBubble：桌面交互、跨设备状态与发布维护](cases/bitbubble.md)
+- [Aque：离线图片修复与 Windows 交付](cases/aque.md)
+- [我的回想录：微信小程序与网站版本管理](cases/memoir.md)
+- [Codex History Sync Plus：公开源码诊断恢复工具](cases/history-sync.md)
+
 ## 先看这三个项目
 
 | 项目 | 解决的问题 | 工程重点 | 入口 |
