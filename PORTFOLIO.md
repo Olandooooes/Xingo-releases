@@ -1,88 +1,60 @@
-# Hongtan Liu / Olando · 项目作品集
+# 刘红潭 / Hongtan Liu · 工程作品集
 
-我关注把具体需求做成可以使用、交付和持续维护的产品：从业务流程与数据处理，到 Web 应用、桌面客户端与 AI 应用探索。
+**AI 应用 · 全栈开发 · FDE / 技术交付**  
+从业务需求出发，完成软件实现、验证交付与持续维护。
 
-[GitHub](https://github.com/Olandooooes) · [产品门户](https://xingo.fun)
+| **[工作项目 · 企业需求落地](#work-projects)** | **[个人项目 · 产品开发与交付](#personal-projects)** |
+| :--- | :--- |
+| **智采**：采购部门实际使用的内部工具<br>**链析**：规则匹配、历史归档与数据处理<br>**企业系统**：Web 改造、Flutter 移动端维护 | **OfferPath**：已上线的求职管理 Web 产品<br>**BitBubble**：Windows 社交桌宠，黑客松二等奖¹<br>**开源工具**：可直接阅读的诊断与恢复实现 |
+| 重点：**业务理解、需求响应、数据处理、维护** | 重点：**产品设计、工程实现、发布、迭代** |
 
-## 独立工程案例
+[GitHub](https://github.com/Olandooooes) · [产品门户](https://xingo.fun) · [OfferPath 在线体验](https://offerpath.xingo.fun) · [BitBubble 官网](https://bitbubble.xingo.fun/)
 
-从业务问题、本人职责、技术取舍、关键实现、验证和交付边界展开：
+<a id="work-projects"></a>
 
-- [OfferPath：Web 工作流、附件与 AI 简历迭代](cases/offerpath.md)
-- [BitBubble：桌面交互、跨设备状态与发布维护](cases/bitbubble.md)
-- [Aque：离线图片修复与 Windows 交付](cases/aque.md)
-- [我的回想录：微信小程序与网站版本管理](cases/memoir.md)
-- [Codex History Sync Plus：公开源码诊断恢复工具](cases/history-sync.md)
+## 工作项目 · 企业需求落地
 
-## 先看这三个项目
+**富士医疗技术服务（上海）有限公司｜2024.07 至今**  
+早期 PACS 医院远程支持，后转内部系统开发维护。以下为脱敏案例，点击项目名查看职责、实现、验证与交付细节。
 
-| 项目 | 解决的问题 | 工程重点 | 入口 |
-| --- | --- | --- | --- |
-| OfferPath | 岗位信息、投递状态和后续行动分散 | React / TypeScript、服务端 API、登录、数据同步、导入导出 | [在线产品](https://offerpath.xingo.fun) |
-| BitBubble | 桌宠陪伴缺少人与人之间的互动 | Electron、实时连接、跨设备状态、Windows 安装包交付 | [项目与下载](https://github.com/Olandooooes/BitBubble-releases) |
-| Codex History Sync Plus | 配置变化后本地对话或项目记录难以找回 | Python / PowerShell、状态诊断、备份、dry-run、恢复流程 | [公开源码](https://github.com/Olandooooes/codex-history-sync-plus) |
+| 项目 | 我做了什么 | 重点成果 / 工程证据 |
+| --- | --- | --- |
+| **[智采 · 采购管理工具](cases/zhicai.md)** | 整理历史 Excel、结构化建库；开发查询、录入、看板和供应商模块 | **采购部门实际使用**；需求到业务工具的落地 |
+| **[链析 · 报价规则处理](cases/lianxi.md)** | Python / PySide6 / SQL Server；规范化、规则匹配、批次归档与导出 | **可追溯的历史任务**；处理失败与导出状态控制 |
+| **[企业 Web / 移动端系统](cases/enterprise-systems.md)** | ASP.NET MVC 审批流程改造；Flutter 项目恢复、接口排查与维护 | **遗留系统接管与迭代**；在途数据迁移、真机与模拟验证分层 |
+| **[销售报表自动化](cases/sales-reporting.md)** | Salesforce → Python / SQL → Power BI，覆盖 6 条产品线 | 月度整理流程自述 **约 6 人时 → 20 分钟**² |
+| **[设备手册 AI 问答](cases/manual-qa.md)** | FastAPI 检索、百炼 / DeepSeek 接入、引用与原页图片预览 | **答案可回查来源**；适配 Windows 部署环境 |
+| **[RPA 竞品信息处理](cases/rpa.md)** | 串联自动登录、批量检索和结构化导出 | 自述覆盖 **400 余竞品目标**；工具与核验细节待补证 |
 
-## OfferPath：从求职流程到完整 Web 产品
+**项目性质：** 企业内部软件案例，源码与业务数据不公开。[软件著作权记录与归属边界](cases/software-rights.md)。开发贡献与企业软件权利归属分别说明。
 
-**场景：** 求职信息散落在招聘网站和表格里，投递进度、面试安排与下一步行动难以保持一致。
+<a id="personal-projects"></a>
 
-**产品路径：** 录入或导入岗位 → 管理阶段与活动 → 安排跟进和面试 → 查看漏斗与日程 → 导出记录。
+## 个人项目 · 产品开发与交付
 
-**实现：** React / TypeScript 前端，Clerk 登录，Cloudflare Workers API 与 D1 数据存储；包含本地缓存、跨设备同步、重复检测、日历导出和提醒功能。
+**独立产品开发｜Web · Windows 桌面 · 微信小程序 · 开源扩展**  
+从产品流程到实现、发布和维护；闭源产品提供体验入口，开源项目提供可检查代码。
 
-**值得讨论的工程问题：**
+| 项目 | 我做了什么 | 重点成果 / 体验入口 |
+| --- | --- | --- |
+| **[OfferPath · 求职流程管理](cases/offerpath.md)** | React / TypeScript、Clerk、Workers / D1；岗位管理、同步、简历附件及预览 | **已上线 Web 产品** · [在线体验](https://offerpath.xingo.fun) |
+| **[BitBubble · 社交桌宠](cases/bitbubble.md)** | Electron / WebSocket；跨电脑串门、互动状态与安装包交付 | **外滩黑客松二等奖¹** · [下载与版本](https://github.com/Olandooooes/BitBubble-releases) |
+| **[Aque · 净像工坊](cases/aque.md)** | Python / OpenCV；离线局部修复、预览与 Windows 交付 | **离线桌面产品** · [官网](https://aque.xingo.fun) · [下载](https://github.com/Olandooooes/Aque-releases) |
+| **[我的回想录](cases/memoir.md)** | 微信小程序、独立官网、隐私说明与版本追溯 | **小程序产品交付** · [官网与入口](https://yearrings.xingo.fun) |
+| **[Codex History Sync Plus](cases/history-sync.md)** | 在上游基础上扩展项目索引诊断、dry-run、备份与恢复 | **公开源码** · [实现与测试](https://github.com/Olandooooes/codex-history-sync-plus) |
 
-- 不同账号的本地数据如何隔离，首次登录时如何处理已有记录。
-- 网络失败后如何重试，如何避免已删除记录在同步后重新出现。
-- 如何把阶段变化、历史活动与下一步行动组织成可持续使用的工作流。
+¹ 奖项来自本人提供的经历；相关内容 5 万余播放是传播数据，不是用户数。  
+² 耗时来自本人工作记录；新旧任务的计时范围仍待进一步核实。
 
-**体验建议：** 使用虚构公司和岗位建立记录，修改阶段与下一步，刷新后检查记录，再试导出。请勿在公开演示中使用真实求职隐私。
+<details>
+<summary>背景、验证范围与开发方式</summary>
 
-**范围：** 产品源码保持私有。AI 简历相关能力仍在迭代，本作品集不将未完成真实模型验收的功能写成已验证成果，也不声称已有商业收入或规模化用户。
+上海健康医学院 · 数据科学与大数据技术本科 · 2020.09–2024.06。职业经历自 2024.07 起，转岗月份尚未核实，不将总工龄等同于全栈开发年限。
 
-## BitBubble：桌面交互与实时社交
+案例分别标明工作自述、代码核查、既有验收记录和公开发布。模拟测试不等于生产验收；Flutter 维护不等于独立原生双端开发；规则匹配不等于训练预测模型。OfferPath 的真实模型调用和 Resume Matcher 生产集成尚未完成验证。
 
-**场景：** 将单机桌宠扩展成朋友之间的轻量互动入口。
+我使用 Codex / ChatGPT 辅助理解代码、实现与调试，由我明确需求、检查结果、验证流程并承担交付责任。企业案例不附内部源码、客户或供应商明细、真实报价、生产配置、凭据或用户数据。图示均为流程概括。
 
-**产品路径：** 创建桌宠 → 添加好友 → 派宠物串门 → 对话或传递纸条 → 返回并保留回忆。
+</details>
 
-**实现重点：** Electron 桌面窗口、鼠标穿透和管理界面，WebSocket 连接与重连，以及两端设备的访问状态协调。通过 Windows 安装包、校验文件、Release 与 Issues 完成交付和反馈闭环。
-
-**演示重点：** 两台设备完成一次完整串门；解释断线恢复、窗口状态与打包环境问题如何定位。
-
-[官网](https://bitbubble.xingo.fun/) · [发布与项目说明](https://github.com/Olandooooes/BitBubble-releases)
-
-公开发布仓库不等于开源源码。Windows 为公开正式版，macOS 不作为已发布能力展示。
-
-## Aque / 净像工坊：离线图片局部修复
-
-**场景：** 对自有或已获授权图片中的污点、划痕和小面积遮挡进行局部修复。
-
-**实现与交付：** Python 桌面应用、离线操作流程、Windows 安装包、独立官网与文件校验。用相同输入展示处理前后差异，同时保留原图并说明效果边界。
-
-[官网](https://aque.xingo.fun) · [项目与下载](https://github.com/Olandooooes/Aque-releases)
-
-## 我的回想录：微信小程序与产品交付
-
-以微信小程序为产品入口，配套独立官网、隐私说明、版本归档和反馈。工程上将网站部署、小程序发布和源码版本追溯分别管理，避免网站更新误伤已有服务。
-
-[官网](https://yearrings.xingo.fun) · [版本与反馈](https://github.com/Olandooooes/Xingo-releases)
-
-在微信搜索「我的回想录」。源码归档标签不代表已经核验的微信审核版本。
-
-## Codex History Sync Plus：在开源项目上解决具体问题
-
-基于 [GODGOD126/codex-history-sync-tool](https://github.com/GODGOD126/codex-history-sync-tool) 扩展，保留原作者署名和 MIT 许可证。扩展重点是项目记录、线程归属、索引缺失与新版状态格式下的诊断和恢复。
-
-仓库包含状态检查、dry-run、备份和恢复说明，以及测试运行入口。它处理本地记录，不提供跨云端账号同步，也不能恢复已被物理删除的会话。
-
-[源码、运行说明与测试入口](https://github.com/Olandooooes/codex-history-sync-plus)
-
-## 如何评估这些项目
-
-- **产品体验：** 从每个项目的公开官网或发布入口开始。
-- **代码阅读：** 公开源码项目可直接阅读；闭源产品通过演示与设计说明沟通，不以发布仓库代替源码证据。
-- **工程讨论：** 重点讨论需求取舍、状态管理、错误处理、部署、版本追溯与验证方式。
-- **事实边界：** 未公开用户数据、雇主内部系统或客户材料；未用未经核验的用户量、收入或测试结果包装项目。
-
-*本页整理于 2026-09-20。项目状态以对应仓库和当前产品为准。*
+*更新于 2026-09-20。详细状态以各案例和公开 Release 为准。*
