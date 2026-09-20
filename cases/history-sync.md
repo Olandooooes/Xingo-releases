@@ -4,6 +4,11 @@
 
 > 开源扩展项目。基于 [GODGOD126/codex-history-sync-tool](https://github.com/GODGOD126/codex-history-sync-tool)，保留原作者署名、MIT License 与 NOTICE；不将上游全部能力算作本人原创。
 
+## AI 辅助开发工具与运行形态
+
+个人项目主要使用 **ChatGPT、Codex**辅助代码理解、实现与调试，扩展范围和修改结果由我核查，并保留上游贡献与署名。
+
+这是 **本地 Python 命令行工具 + Windows PowerShell GUI**，操作本机状态与备份，核心流程不需要独立业务服务端。它不属于 Web（B/S）应用，也不将本地工具包装为联网 C/S 产品。
 ## 问题与扩展范围
 
 配置变化后，本地会话可能仍在数据库中，却没有出现在项目或侧边栏里。原工具处理 provider / model 变化后的历史同步；Plus 扩展关注项目记录、线程归属、索引缺失和新版状态格式。
