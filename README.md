@@ -17,7 +17,9 @@
 
 **English:** My Memoir is a WeChat mini-program project with a dedicated product website, version archives and public feedback. Its delivery workflow keeps website deployment, mini-program release and source-version traceability separate.
 
-[查看完整作品集：OfferPath、BitBubble、Aque 与开发工具](PORTFOLIO.md)
+[完整作品集与独立工程案例](PORTFOLIO.md) · [我的回想录详细案例](cases/memoir.md)
+
+快速阅读：[OfferPath](cases/offerpath.md) · [BitBubble](cases/bitbubble.md) · [Aque](cases/aque.md) · [公开源码工具](cases/history-sync.md)
 
 这里是微信小程序「我的回想录」的公开版本归档与问题反馈仓库。
 
