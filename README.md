@@ -1,5 +1,24 @@
 # 我的回想录 / Xingo Releases
 
+## 产品与项目展示 / Project overview
+
+「我的回想录」以微信小程序作为使用入口，配套独立产品官网、隐私说明、版本归档与问题反馈，围绕个人回忆记录提供产品体验。
+
+### 工程与交付重点
+
+- 小程序、产品官网和服务端 API 分工，网站更新与小程序发布分别管理。
+- 通过源码归档和版本说明建立追溯关系，不将源码标签冒充微信审核版本。
+- 将公开产品材料与私有源码、用户记录分离。
+- 官网中的界面示意与真实截图明确区分，避免把设计画面当作实测证据。
+
+### 如何体验
+
+在微信搜索「我的回想录」；先使用虚构内容体验记录流程，再查看产品内的数据与隐私说明。具体可用功能以当前小程序为准。
+
+**English:** My Memoir is a WeChat mini-program project with a dedicated product website, version archives and public feedback. Its delivery workflow keeps website deployment, mini-program release and source-version traceability separate.
+
+[查看完整作品集：OfferPath、BitBubble、Aque 与开发工具](PORTFOLIO.md)
+
 这里是微信小程序「我的回想录」的公开版本归档与问题反馈仓库。
 
 - 我的回想录官网：<https://yearrings.xingo.fun>
